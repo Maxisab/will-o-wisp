@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Primary SEO -->
+  <meta name="description" content="Will-O'-The-Wisp Fire Protection provides full-service fire suppression, inspection, testing, and maintenance across Oregon. Licensed, bonded, and insured. Based in Portland, OR.">
+  <meta name="keywords" content="fire protection Oregon, fire suppression Portland, fire extinguisher service Oregon, kitchen suppression system, fire sprinkler inspection, backflow prevention Oregon, dry chemical suppression, fire equipment Portland">
+  <meta name="author" content="Will-O'-The-Wisp Fire Protection">
+  <meta name="robots" content="index, follow">
+
+  <!-- Canonical URL (swap in your real domain) -->
+  <link rel="canonical" href="https://www.wowfirenorthwest.com">
+
+  <!-- Open Graph (for link previews on social media) -->
+  <meta property="og:title" content="Will-O'-The-Wisp Fire Protection | Oregon">
+  <meta property="og:description" content="Full-service fire protection serving all of Oregon. Inspections, suppression systems, extinguishers, sprinklers, and 24/7 emergency response.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.wowfirenorthwest.com">
+  <meta property="og:image" content="https://www.wowfirenorthwest.com/public/wispMascotCrop.png">
+
+  <!-- Geo targeting -->
+  <meta name="geo.region" content="US-OR">
+  <meta name="geo.placename" content="Portland, Oregon">
+
+  <title>Will-O-The-Wisp</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Noto+Serif+Display:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="dist/output.css">
+</head>
+<body class="md:mx-[10%] xl:mx-[18%] overflow-x-hidden">
+  <!-- Wrapper -->
+  <div class="wrapper">
+      <!-- Hero -->
+  <div class="hero relative overflow-hidden">
+    <img class="lg:hidden absolute inset-0 m-auto opacity-15 w-full h-full object-contain" src="/public/wispMascotCrop.png" alt="Will-O-The-Wisp Mascot">
+    <h1 class="border-b-2 border-redBright m-2 px-4 py-10 font-custom text-2xl xl:text-[72px] md:text-[48px] md:py-[100px] text-center">Will-O'-The-Wisp Fire Protection</h1>
+    <div class="border-b-2 border-darkMain m-2 px-6 py-5 font-spartan md:text-2xl lg:px-[15%] md:py-[50px] lg:leading-10 text-center">
+      Will-O'-the-Wisp (W.O.W.) Fire Protection is a new, full-service outfit founded by two seasoned technicians serving the entire state of Oregon for all of your fire equipment needs. Fully licensed, bonded, and insured; we provide routine inspection, testing, and maintenance services, and 24/7 emergency response service for portable extinguishers, fixed-pipe suppression systems, backflow prevention apparatus, fire sprinklers, and other water-based fire protection equipment. Alongside our above-listed services, we  specialize in the installation of kitchen and dry chemical industrial suppression systems.
+        <!-- Desktop only: Associations -->
+      <div class="associations hidden py-5 lg:flex justify-evenly items-center w-full">
+        <img class="object-scale-down max-w-[200px]" src="/public/orfed.png" alt="ORFED logo">
+        <img class="object-scale-down max-w-[200px]" src="/public/nafed.png" alt="NAFED logo">
+      </div>
+    </div>
+  </div>
+
+  <!-- Pricing -->
+  <div class="pricing relative font-spartan py-10 overflow-hidden">
+    <img class="lg:hidden absolute inset-0 m-auto px-2 opacity-40 w-full h-full object-cover pointer-events-none" src="/public/jHeroImg.jpg" alt="Picture of worker">
+    <div class="imgWrapper hidden lg:flex gap-5 justify-center mb-28">
+      <img class="object-scale-down min-w-[100px] max-w-[200px] 2xl:max-w-[400px]" src="/public/extinguishers.jpg" alt="Fire extinguishers">
+      <img class="object-scale-down min-w-[100px] max-w-[200px] 2xl:max-w-[400px]" src="/public/jHeroImg2.jpg" alt="Picture of worker">
+      <img class="object-scale-down min-w-[200px] max-w-[400px] 2xl:max-w-[800px]" src="/public/van.jpg" alt="Picture of work van">
+      <img class="object-scale-down min-w-[100px] max-w-[200px] 2xl:max-w-[400px]" src="/public/pHeroImg.jpg" alt="Picture of worker">
+    </div>
+    <h2 class="relative m-2 px-4 pb-10 text-center text-2xl lg:text-4xl z-10">Pricing Information</h2>
+    <!-- Mobile direct link -->
+    <a href="/public/pricingFlyer.pdf" target="_blank"
+      class="relative md:hidden px-4 py-2 block mx-auto text-center bg-redMain text-white rounded z-10 w-fit">
+      View Prices
+    </a>
+    <!-- Desktop modal -->
+    <button onclick="document.getElementById('pdfModal').classList.remove('hidden')"
+      class="hidden relative px-4 py-2 md:block mx-auto bg-redMain text-white rounded z-10 lg:px-16 lg:py-6 lg:text-lg lg:rounded-lg">
+      View Prices
+    </button>
+
+    <!-- Modal -->
+    <div id="pdfModal" class="hidden fixed inset-0 z-50 flex items-center justify-center">
+      <!-- background closes modal -->
+      <div onclick="document.getElementById('pdfModal').classList.add('hidden')"
+        class="absolute inset-0 bg-black opacity-60">
+      </div>
+      <!-- content -->
+      <div class="relative z-10 bg-white rounded-lg shadow-xl w-3/4 h-3/4 p-4">
+        <!-- close button -->
+        <button onclick="document.getElementById('pdfModal').classList.add('hidden')"
+          class="absolute top-2 right-3 px-2 pb-0 text-white bg-redBright hover:text-black text-xl font-bold rounded">
+          X
+        </button>
+        <!-- PDF -->
+         <iframe src="/public/pricingFlyer.pdf" frameborder="0" class="w-full h-full rounded"></iframe>
+      </div>
+    </div>
+  </div>
+
+  <!-- Contact Us -->
+  <div class="inquiries px-4 m-2 font-spartan border-t-2 border-redMain">
+    <div class="contact font-spartan py-10 px-6">
+      <h2 class="m-2 px-4 pb-10 text-center text-2xl lg:text-4xl">Contact Us</h2>
+
+      <!-- Contact Form -->
+      <h3 class="text-center lg:text-2xl pb-5">Send Us an Inquiry</h3>
+      <form id="contactForm" class="max-w-2xl mx-auto flex flex-col gap-4">
+    
+      <!-- Name -->
+      <div class="flex flex-col md:flex-row gap-4">
+        <div class="flex flex-col flex-1">
+          <label for="firstName" class="mb-1 text-sm lg:text-lg">First Name</label>
+          <input type="text" id="firstName" name="firstName" required
+            class="border border-gray-300 rounded px-3 py-2 focus:outline-none focus:border-redMain">
+        </div>
+        <div class="flex flex-col flex-1">
+          <label for="lastName" class="mb-1 text-sm lg:text-lg">Last Name</label>
+          <input type="text" id="lastName" name="lastName" required
+            class="border border-gray-300 rounded px-3 py-2 focus:outline-none focus:border-redMain">
+        </div>
+      </div>
+
+      <!-- Business Name -->
+      <div class="flex flex-col">
+        <label for="businessName" class="mb-1 text-sm lg:text-lg">Business Name (optional)</label>
+        <input type="text" id="businessName" name="businessName"
+          class="border border-gray-300 rounded px-3 py-2 focus:outline-none focus:border-redMain">
+      </div>
+
+      <!-- Work Needed -->
+      <div class="flex flex-col">
+        <label for="businessType" class="mb-1 text-sm lg:text-lg">Business Type</label>
+        <select id="businessType" name="businessType" required
+         class="border border-gray-300 rounded px-3 py-2 focus:outline-none focus:border-redMain bg-white">
+          <option value="" disabled selected>Select a service</option>
+          <option value="inspection">Kitchen</option>
+          <option value="maintenance">Dry Chemical</option>
+          <option value="emergency">Fire Sprinkler, Commercial</option>
+          <option value="extinguishers">Fire Sprinkler, Residential</option>
+          <option value="suppression">Backflow</option>
+          <option value="sprinklers">Fire Extinguisher</option>
+          <option value="other">Other</option>
+        </select>
+      </div>
+
+      <!-- Email -->
+      <div class="flex flex-col">
+       <label for="email" class="mb-1 text-sm lg:text-lg">Email</label>
+       <input type="email" id="email" name="email" required
+          class="border border-gray-300 rounded px-3 py-2 focus:outline-none focus:border-redMain">
+      </div>
+
+      <!-- Phone -->
+      <div class="flex flex-col">
+        <label for="phone" class="mb-1 text-sm lg:text-lg">Phone</label>
+        <input type="tel" id="phone" name="phone"
+          class="border border-gray-300 rounded px-3 py-2 focus:outline-none focus:border-redMain">
+      </div>
+
+      <!-- Preferred Contact Method -->
+      <div class="flex flex-col">
+        <p class="mb-2 text-sm lg:text-lg">Preferred Method of Contact</p>
+        <div class="flex gap-6">
+          <label class="flex items-center gap-2 cursor-pointer">
+            <input type="radio" name="contactMethod" value="phone" required
+              class="accent-redMain">
+            Phone
+          </label>
+          <label class="flex items-center gap-2 cursor-pointer">
+            <input type="radio" name="contactMethod" value="email"
+              class="accent-redMain">
+            Email
+          </label>
+        </div>
+      </div>
+
+      <!-- Submit -->
+      <button type="submit"
+        class="mt-4 px-6 py-2 bg-redMain text-white rounded mx-auto block hover:opacity-90 lg:px-16 lg:py-6 lg:text-lg lg:rounded-lg">
+        Send Inquiry
+      </button>
+
+      </form>
+      
+      <!-- phone and email -->
+      <div class="contactInfo lg:bg-darkMain lg:mt-12 lg:p-8 lg:text-white lg:rounded-xl lg:text-lg lg:flex justify-evenly">
+        <div>
+          <p>Phone:
+            <p>(503)-867-4943</p>
+            <p>(503)-741-7080</p>
+          </p>
+        </div>        
+        <br>
+        <div>
+          <p>Email:
+            <p>joshua@wowfirenorthwest.com</p>
+            <p>pattric@wowfirenorthwest.com</p> 
+          </p>
+        </div>        
+      </div>      
+    </div>
+  </div>
+  </div>
+  
+  <!-- Inquiry Form Success/Failure States -->
+    <!-- Success Modal -->
+  <div id="successModal" class="hidden fixed inset-0 z-50 flex items-center justify-center">
+    <div class="absolute inset-0 bg-black opacity-60"></div>
+    <div class="relative z-10 bg-white rounded-lg shadow-xl p-8 max-w-md mx-4 text-center font-spartan">
+      <div class="text-5xl mb-4">✅</div>
+      <h2 class="text-2xl font-bold mb-2">Message Sent!</h2>
+      <p class="text-gray-600 mb-6">Thank you for reaching out. We'll get back to you as soon as possible.</p>
+      <button onclick="document.getElementById('successModal').classList.add('hidden')"
+        class="px-6 py-2 bg-redMain text-white rounded hover:opacity-90">
+        Close
+      </button>
+    </div>
+  </div>
+
+  <!-- Error Modal -->
+  <div id="errorModal" class="hidden fixed inset-0 z-50 flex items-center justify-center">
+    <div class="absolute inset-0 bg-black opacity-60"></div>
+    <div class="relative z-10 bg-white rounded-lg shadow-xl p-8 max-w-md mx-4 text-center font-spartan">
+      <div class="text-5xl mb-4">⚠️</div>
+      <h2 class="text-2xl font-bold mb-2">Something Went Wrong</h2>
+      <p class="text-gray-600 mb-6">We couldn't send your message. Please try again or contact us directly by phone or email.</p>
+      <button onclick="document.getElementById('errorModal').classList.add('hidden')"
+        class="px-6 py-2 bg-redMain text-white rounded hover:opacity-90">
+        Try Again
+      </button>
+    </div>
+  </div>
+  <script>
+    document.getElementById('contactForm').addEventListener('submit', async function(e) {
+      e.preventDefault();
+
+      const btn = document.getElementById('submitBtn');
+      btn.disabled = true;
+      btn.textContent = 'Sending...';
+
+      const formData = new FormData(this);
+
+      try {
+        const response = await fetch('/send.php', {
+          method: 'POST',
+          body: formData
+        });
+        const result = await response.text();
+      
+        if (result.trim() === 'success') {
+          document.getElementById('successModal').classList.remove('hidden');
+          this.reset();
+        } else {
+          document.getElementById('errorModal').classList.remove('hidden');
+        }
+      } catch (err) {
+        document.getElementById('errorModal').classList.remove('hidden');
+      } finally {
+        btn.disabled = false;
+        btn.textContent = 'Send Inquiry';
+      }
+    });
+  </script>
+</body>
+</html>
